@@ -1,14 +1,15 @@
+/* ライトテーマの色 */
 :root, body.light{
 --primary:#276956;
---on-primary:#f4fff3;
+--on-primary:#e4fff3;
 --primary-container:#bbffe5;
 --on-primary-container:#002118;
 --secondary:#4b635a;
---on-secondary:#f4fff3;
+--on-secondary:#e4fff3;
 --secondary-container:#dcf7eb;
 --on-secondary-container:#082018;
 --tertiary:#2e6671;
---on-tertiary:#f7fdff;
+--on-tertiary:#e7fdff;
 --tertiary-container:#d5f7ff;
 --on-tertiary-container:#001e2c;
 --error:#ba1a1a;
@@ -36,15 +37,19 @@
 --surface-container-high:#e6e9e6;
 --surface-container-highest:#e1e3e0;
 }
+
+/* フォント設定 */
 :root{
   --size: 18px;
   --font: Google Sans Flex, "Noto Sans JP", sans-serif;
   --font-mono: "NOTONOTO", monospace;
 }
-/* html{
-  font-size: 18px;
-} */
 
+/* 行間設定を上書き */
 *+:is(address,article,blockquote,code,.field,fieldset,form,.grid,h1,h2,h3,h4,h5,h6,nav,ol,p,pre,.row,section,aside,table,.tabs,ul) {
     margin-block-start: 0.25rem;
+}
+
+hr{
+  margin: 8px 0px !important;
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "GirkyWiki - ホーム"
+title: GirkyWiki (仮)
 ---
 
 ## ホーム
@@ -8,3 +8,4 @@ title: "GirkyWiki - ホーム"
 
 ### ページ一覧
 - 作成中
+- [Last.FMで音楽を分析して可視化する](./misc/lastfm.md)
